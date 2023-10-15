@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>GIF Maker</title>
+		<link rel="stylesheet" type="text/css" href="app.css">
+		<link rel="stylesheet" type="text/css" href="animate-custom.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="gif.js"></script>
+		<script src="app.js"></script>
+	</head>
+	<body>
+		Drag and drop images anywhere to add frames.
+		<section id="frames"></section>
+		<section id="go">
+			<label>Delay: <input id="delay" type="number" value="70"/></label><br>
+			<button id="done">Create GIF</button>
+			<span id="error"></span>
+		</section>
+		<section id="results"></section>
+		<footer>
+			This app uses <a href="https://github.com/jnordberg/gif.js">gif.js</a> by Johan Nordberg.
+		</footer>
+	</body>
+</html>
